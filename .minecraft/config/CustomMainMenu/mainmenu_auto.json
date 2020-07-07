@@ -1,13 +1,23 @@
 {
     "images":
     {
+	
+		"black":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 34,
+            "posY" : 0,
+            "width" : 184,
+            "height" : 800,
+            "alignment" : "top_left"
+        },
 		"logo":
         {
             "image" : "mainmenu:textures/logo.png",
-            "posX" : 0,
+            "posX" : 10,
             "posY" : 0,
-            "width" : 475,
-            "height" : 240,
+            "width" : 250,
+            "height" : 120,
             "alignment" : "top_left"
         }
 	
@@ -17,18 +27,17 @@
     {     
 		"singleplayer":
         {
-            "text" : "menu.singleplayer",
+            "text" : "Singleplayer",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "mainmenu:textures/btn.png",
-            "posX" : 105,
-            "posY" : 70,
-            "width" : 186,
-            "height" : 30,
-			imageWidth : 186,
-			imageHeight : 40,
+            "posX" : 50,
+            "posY" : -30,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
 			"alignment" : "left_center",
-			"hoverText" : "Let the adventure begin!",
             "action" : 
             {
                 "type" : "openGui",
@@ -38,16 +47,16 @@
 
 		"multiplayer":
         {
-            "text" : "menu.multiplayer",			
+            "text" : "Multiplayer",			
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
 			"texture" : "mainmenu:textures/btn.png",
-            "posX" : 105,
-            "posY" : 105,
-            "width" : 90,
-            "height" : 30,
-			imageWidth : 186,
-			imageHeight : 40,
+            "posX" : 50,
+            "posY" : -10,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
 			"alignment" : "left_center",
             "action" : 
             {
@@ -55,40 +64,19 @@
                 "gui" : "multiplayer"
             }
         },
-		
-		"hosting":
-        {
-            "text" : "Rent a server!",			
-			"normalTextColor" : 3125670,
-			"hoverTextColor" : 3125670,
-			"texture" : "mainmenu:textures/btn.png",
-            "posX" : 202,
-            "posY" : 105,
-            "width" : 90,
-            "height" : 30,
-			imageWidth : 186,
-			imageHeight : 40,
-			"alignment" : "left_center",
-			"hoverText" : "By Bisecthosting",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://bisecthosting.com/xdreamz"
-            }
-        },
                
 		"options":
         {
-            "text" : "",
+            "text" : "Options",
 			"normalTextColor" : 12303291,
 			"hoverTextColor" : 3125670,
-			"texture" : "mainmenu:textures/btno.png",
-            "posX" : 185,
-            "posY" : 140,
-            "width" : 30,
-            "height" : 30,
-			imageWidth : 30,
-			imageHeight : 30,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 50,
+            "posY" : 10,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
 			"alignment" : "left_center",
             "action" : 
             {
@@ -99,14 +87,14 @@
 		        
 		"language":
         {
-            "text" : "",
-			"texture" : "mainmenu:textures/btnl.png",
-            "posX" : 105,
-            "posY" : 140,
-            "width" : 30,
-            "height" : 30,
-			imageWidth : 30,
-			imageHeight : 30,			
+            "text" : "Language",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 50,
+            "posY" : 30,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
 			"alignment" : "left_center",
             "action" : 
             {
@@ -117,16 +105,16 @@
                     
         "quit":
         {
-            "text" : "menu.quit",
+            "text" : "Quit",
 			"normalTextColor" : 16729156,
 			"hoverTextColor" : 14483456,
-			"texture" : "mainmenu:textures/btnq.png",
-            "posX" : 225,
-            "posY" : 140,
-            "width" : 66,
-            "height" : 30,
-			imageWidth : 66,
-			imageHeight : 30,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 50,
+            "posY" : 50,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
 			"alignment" : "left_center",
             "action" : 
             {
@@ -136,38 +124,50 @@
 		
         "mods":
         {
-            "text" :"",
+            "text" : "Mods (#modsloaded#/#modsactive#)",
 			"normalTextColor" : 6710886,
 			"hoverTextColor" : 3125670,
-			"texture" : "mainmenu:textures/btnm.png",
-            "posX" : 145,
-            "posY" : 140,
-            "width" : 30,
-            "height" : 30,
-			imageWidth : 30,
-			imageHeight : 30,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 50,
+            "posY" : 80,
+            "width" : 153,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			imageWidth : 100,
+			imageHeight : 50,
 			"alignment" : "left_center",
             "action" : 
             {
-                "type" : "openLink",
-                "link" : "https://discord.gg/wMpsj8y"
+                "type" : "openGui",
+                "gui" : "mods"
             }
         }
-		},
+	},
     
     "texts":
     {
         "mojang":
         {
             "text" : "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
-            "posX" : 20,
+            "posX" : 2,
             "posY" : -10,
-            "color" : 1,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+		"packTxt":
+        {
+            "text" : "AAIII - 0.0.1a",
+            "posX" : 2,
+            "posY" : -25,
+            "color" : -1,
             "alignment" : "bottom_left"
         }
     },
     
-		"alignments":
+	
+	"alignments":
     {
         "c1":
         {
@@ -182,32 +182,12 @@
         }
     },
 	
-	
     "other":
     {
-		"background": {
-            "image": "",
-            "slideshow": {
-                "images": 
-				[
-                    "mainmenu:screenshot1.png",
-                    "mainmenu:screenshot2.png",
-                    "mainmenu:screenshot3.png",
-                    "mainmenu:screenshot4.png",
-                    "mainmenu:screenshot5.png",
-                    "mainmenu:screenshot6.png",
-                    "mainmenu:screenshot7.png",
-                    "mainmenu:screenshot8.png",
-                    "mainmenu:screenshot9.png",
-					"mainmenu:screenshot10.png",
-					"mainmenu:screenshot11.png",
-					"mainmenu:screenshot12.png",
-					"mainmenu:screenshot12.png"
-                ],
-                "displayDuration": 50,
-                "fadeDuration": 50,
-                "shuffle": "true"
-            }
-        }
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.png",
+			"mode" : "stretch"
+		}
     }
 }
